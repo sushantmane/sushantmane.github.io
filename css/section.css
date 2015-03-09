@@ -105,3 +105,10 @@
 #blog-post article p {
   font-size:23px;
 }
+
+
+code  {
+  color: #D14;
+  background: #F5F5F5;
+  font-size: 19px;
+}
