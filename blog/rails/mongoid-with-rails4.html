@@ -49,7 +49,7 @@
 
               <p>
                 <u><h4>Installation</h4></u>
-                To install mongoid in your Rails project, Simply add Mongoid gem to <code>Gemfile</code>
+                To install mongoid in your Rails project, simply add Mongoid gem to <code>Gemfile</code>
                 <code class='codebase'>gem 'mongoid'</code>
                 Then issue follwing command to install the dependencies specified
                 in your Gemfile
@@ -63,6 +63,17 @@
                 It will create <code>mongoid.yml</code> in <code>config</code>
                 directory of application.
               </p>
+
+              <p>
+              <u><h4>Initialize Application</h4></u>
+              And now we are ready ro go...
+              Just issue
+              <code class='codebase'>rails c</code>
+              to initialize the Rails applicaton.
+              Then do the following to build config hash.
+              <code class='codebase'>Mongoid.load!('./config/mongoid.yml')</code>
+            </p>
+
           </p>
 		      <div id = "blog-posts" style="text-align:center;margin:60px auto;">
 
