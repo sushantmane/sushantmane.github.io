@@ -110,7 +110,7 @@
 code  {
   color: #D14;
   background: #F5F5F5;
-  font-size: 19px;
+  font-size: 18px;
   border-radius: 5px;
   border: 0.5px solid #dcdcdc;
   padding: 0px 5px;
@@ -120,11 +120,17 @@ code  {
 .codebase  {
   color:          #D14;
   background:     #F5F5F5;
-  font-size:      19px;
+  font-size:      18px;
   border-radius:  5px;
   border:         0.5px solid #dcdcdc;
   padding:        2px 20px;
   display:        block;
   margin:         20px;
   font-family:    'Monaco';
+}
+
+.ruby-comments  {
+  font-style: italic;
+  color: #127570;
+  font-size: 18px;
 }
