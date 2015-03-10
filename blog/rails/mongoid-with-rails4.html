@@ -35,8 +35,34 @@
 			  <section>
 			    <p>
               Mongoid is Object Document Mapper(ODM) framework for accessing MongoDB written in Ruby.
-              The main objective of Mongoid is to provide a familiar API to Ruby developers who have been using
-              <code> ActiveRecord</code>, while leveraging the power of MongoDB.
+              The main objective of Mongoid is to provide a familiar API to Ruby developers who have been
+              using <code>ActiveRecord</code>, while leveraging the power of MongoDB.
+
+              In order to demonstrate 'How to use Mongoid in Rails4?' we will
+              create sample rails project.
+
+              <p>
+                <h5>Creating sample Rails project</h5>
+                Create new Rails project
+                <code class='codebase'>rails new <em>sample_app</em> --skip-active-record</code>
+              </p>
+
+              <p>
+                <h5>Installation</h5>
+                To install mongoid in your Rails project, Simply add Mongoid gem to <code>Gemfile</code>
+                <code class='codebase'>gem 'mongoid'</code>
+                Then issue follwing command to install the dependencies specified
+                in your Gemfile
+                <code class='codebase'>bundle install</code>
+              </p>
+
+              <p>
+                <h5>Configuration</h5>
+                Generate a config file by executing the generator
+                <code class='codebase'>rails g mongoid:config</code>
+                It will create <code>mongoid.yml</code> in <code>config</code>
+                directory of application.
+              </p>
           </p>
 		      <div id = "blog-posts" style="text-align:center;margin:60px auto;">
 
