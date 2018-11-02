@@ -145,7 +145,7 @@ body, header, footer {
 footer {
   height:200px;
   width:100%;
-  padding:20px 0px 15px 0px;
+  padding:30px 0px 15px 0px;
   background:#2A2C39;
   color:#EF4723;
   text-align:center;
@@ -160,7 +160,7 @@ footer #copyRight {
 
 footer hr {
   height:3px;
-  width:20%;
+  width:30%;
   background:#dcdcdc;
   border:1px solid #dcdcdc;
   border-radius:20px;
@@ -237,9 +237,9 @@ footer div #tw {
   height:auto;
   width:256px;
   border:0px solid #FFF;
-  border-radius:200px;  
+  border-radius:200px;
   opacity:0.7;
-  transition:1s ease all; 
+  transition:1s ease all;
 }
 
 .circle-img:hover {
@@ -424,7 +424,7 @@ footer div #tw {
     text-decoration:none;
     color:#FFF;
   }
-  
+
   #head nav {
     margin:0px auto;
     padding:0px;
@@ -443,7 +443,7 @@ footer div #tw {
 
   #head nav #nav-list .nav-list-item {
     margin:0px auto;
-    
+
     text-align:center;
   }
 
@@ -499,9 +499,9 @@ footer div #tw {
     height:auto;
     width:156px;
     border:0px solid #FFF;
-    border-radius:200px;  
+    border-radius:200px;
     opacity:0.7;
-    transition:1s ease all; 
+    transition:1s ease all;
   }
 
   .circle-img:hover {
@@ -509,7 +509,7 @@ footer div #tw {
     height:auto;
     width:156px;
     border:0px solid #FFF;
-    border-radius:200px;  
+    border-radius:200px;
     opacity:1;
   }
 
@@ -557,7 +557,7 @@ footer div #tw {
     border:1px solid #5F5F5F;
     border-radius:10px;
   }
-  
+
 
   #section-1 .info {
     margin:0px auto 0px auto;
@@ -616,11 +616,11 @@ footer div #tw {
   .GreenAnchor {
     color:#0a5;
   }
-  
+
   .center-elements  {
      text-align:center;
   }
-  
+
   footer {
     height:200px;
     width:100%;
@@ -675,4 +675,3 @@ footer div #tw {
   }
 
 }
-
